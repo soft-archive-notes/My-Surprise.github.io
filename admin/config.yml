@@ -1,0 +1,19 @@
+backend:
+name: github
+repo: soft-archive-notes/My-Surprise.github.io
+branch: main
+collections:
+ * name: "content"
+   label: "Content"
+   files:
+   * file: "content/data.json"
+     label: "Data"
+     name: "data"
+     fields:
+     * label: "Title"
+       name: "title"
+       widget: "string"
+     * label: "Description"
+       name: "description"
+       widget: "text"
+       
